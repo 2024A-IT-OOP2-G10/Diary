@@ -1,9 +1,16 @@
 from diaries.K23141_Diary import K23141_Diary
 from diaries.DiarySample import DiarySample
+from diaries.AtsushiDiary import AtshushiDiary
+from diaries.YoshidaDiary import YoshidaDiary
+from diaries.NishioDiary import NishioDiary 
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), 
-           K23141_Diary(),
+diaries = [
+    DiarySample(), 
+    YoshidaDiary(),
+    NishioDiary(),
+    AtshushiDiary(),
+    K23141_Diary(),
 ] 
 
 for d in diaries:
