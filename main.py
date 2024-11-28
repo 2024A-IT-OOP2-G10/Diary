@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySample
+from diaries.k23065_diary import k23065_Diary
 from diaries.K23141_Diary import K23141_Diary
 from diaries.k23111_diary import k23111_diary
 from diaries.AtsushiDiary import AtshushiDiary
@@ -13,6 +14,7 @@ diaries = [
     AtshushiDiary(),
     K23141_Diary(),
     k23111_diary(),
+    k23065_Diary,
 ] 
 
 for d in diaries:
